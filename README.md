@@ -1,1 +1,18 @@
+### Business case
+Client: European Union
 
+The European Union wants to evaluate their ambitious goal for energy production from renewable energies to make up 42% of the consumption by 2030.
+They want to know what are the current status of renewable energy production in EU.
+With this input, they want to evaluate what kinds of policy or actions they need to do to improve the renewable energy production in some countries, especially for countries which are left behind.
+
+### Hypothesis 1: Renewable Energy Adoption Correlates with GDP per Capita
+Hypothesis: Countries with higher GDP per capita tend to have higher adoption rates of renewable energy sources.
+Rationale: Wealthier nations may have more resources to invest in renewable energy infrastructure and technologies.
+
+### Hypothesis 2: Geographic and Climate Influences on Renewable Energy
+Hypothesis: Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production.
+Rationale: Natural resources play a significant role in the feasibility and profitability of renewable energy projects.
+
+### Hypothesis 3: Technological Innovation and Renewable Energy Growth
+Hypothesis: Countries that invest more in research and development (R&D) in renewable energy technologies demonstrate faster growth in renewable energy production.
+Rationale: Innovation in technology can lead to more efficient and cost-effective renewable energy solutions.
