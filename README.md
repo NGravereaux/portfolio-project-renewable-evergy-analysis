@@ -25,3 +25,13 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 * Population of EU Countries: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_GIND__custom_7127262/default/table)
 * GDP per Capita of EU Countries: [Word Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 * R&D investments of EU Countries: [Internationl Energy Agency](https://www.iea.org/data-and-statistics/data-tools/energy-technology-rdd-budgets-data-explorer)
+
+
+
+## Hypothesis 2
+Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production.
+### Electricity Production using Solar Energy
+In order to find out if countries with a higher solar radiation exposition, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. Each country is then categorized according to its average annual solar radiation exposition (see. Figure below).
+
+![Country Solar Categorization](/img/country_categorization_by_solar_radiation.png)
+![Solar Production](/img/solar_production_per_country_radiation_categories.png)
