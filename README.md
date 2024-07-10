@@ -1,4 +1,4 @@
-### Business case
+## Business case
 Client: European Union
 
 The European Union wants to evaluate their ambitious goal for energy production from renewable energies to make up 42% of the consumption by 2030.
@@ -16,3 +16,12 @@ Rationale: Natural resources play a significant role in the feasibility and prof
 ### Hypothesis 3: Technological Innovation and Renewable Energy Growth
 Hypothesis: Countries that invest more in research and development (R&D) in renewable energy technologies demonstrate faster growth in renewable energy production.
 Rationale: Innovation in technology can lead to more efficient and cost-effective renewable energy solutions.
+
+
+## Data
+
+Area of EU Countries:
+https://ec.europa.eu/eurostat/databrowser/view/reg_area3__custom_11352231/bookmark/table?lang=en&bookmarkId=fabcfca6-4abb-4a84-ac1c-7bb335af436a
+
+Population of EU Countries:
+https://ec.europa.eu/eurostat/databrowser/view/DEMO_GIND__custom_7127262/default/table
