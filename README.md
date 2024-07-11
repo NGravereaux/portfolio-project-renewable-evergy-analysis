@@ -30,10 +30,16 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 
 ## Hypothesis 2
 Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production.
+
 ### Electricity Production using Solar Energy
-In order to find out if countries with a higher solar radiation exposition, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. Each country is then categorized according to its average annual solar radiation exposition (see. Figure below).
+In order to find out if countries with a higher solar radiation exposition, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. Each country is then categorized according to its average annual solar radiation exposition.
+
+#### Country Solar Radiation Categorization
+In order to visualize the Country Solar Radiation Categorization, a map is created, which depicts all considered countries in a color depending on their respective category. The colors are defined in a way, so that green represents countries with low solar radiation, and red represents countries with high solar radiation. The categorization itself is defined further above. In subsequent charts, the countries' categories are indicated by applying the colormap to the color of the bars.
 
 ![Country Solar Categorization](/img/country_categorization_by_solar_radiation.png)
-![Solar Production per Area](/img/solar_production_per_area.png)
-![Solar Production per Capita](/img/solar_production_per_capita.png)
-![Solar Production per Total Electricity](/img/solar_production_per_total.png)
+
+#### Average Annual Solar Net Electricity Production
+In order to verify the hypothesis, the countries' average annual solar net electricity productions in relation to their area are compared. The figure displays the data aggregated per radiation category. Countries categorized for higher radiation tend to have higher solar electricity production rates. Countries in the category "low", however, on average have a higher solar electricity production rate than countries in the categories "medium" or "high".
+
+![Solar Production per Area by Category](/img/solar_production_per_country_radiation_categories_aggregated.png)
