@@ -25,13 +25,27 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 * Population of EU Countries: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_GIND__custom_7127262/default/table)
 * GDP per Capita of EU Countries: [Word Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 * R&D investments of EU Countries: [Internationl Energy Agency](https://www.iea.org/data-and-statistics/data-tools/energy-technology-rdd-budgets-data-explorer)
-
+* Average Annual Solar Radiation: [Article by M. Uyan & O.L. Dogmus](https://www.researchgate.net/figure/Average-annual-global-solar-radiation-in-Europe-20_fig2_366202104)
 
 
 ## Hypothesis 2
-Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production.
-### Electricity Production using Solar Energy
-In order to find out if countries with a higher solar radiation exposition, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. Each country is then categorized according to its average annual solar radiation exposition (see. Figure below).
+Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production. Due to limited time resources, we reduced the scope to solar electricity production and its correlation to the countries' solar radiation exposure.
+
+#### Country Solar Radiation Categorization
+Each considered country is categorized by its solar radiation exposure following data on the average annual GHI (Global Horizontal Irradiance) in the period between 1994 and 2016. The map below dsiplays the countries in a color depending on their respective category. Green represents countries with low solar radiation, and red represents countries with high solar radiation.
 
 ![Country Solar Categorization](/img/country_categorization_by_solar_radiation.png)
-![Solar Production](/img/solar_production_per_country_radiation_categories.png)
+
+#### Average Annual Solar Net Electricity Production per Category
+In order to verify the hypothesis, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. The figure below displays the data aggregated per radiation category.
+
+Countries categorized for higher radiation tend to have higher solar electricity production rates. Countries in the category "low", however, on average have a higher solar electricity production rate than countries in the categories "medium" or "high".
+
+![Solar Production per Area by Category](/img/solar_production_per_country_radiation_categories_aggregated.png)
+
+#### Average Annual Solar Net Electricity Production per Country
+In order to investigate the above findings further, the figure bwloe shows the same data, but without category aggregation and separately for each country instead.
+
+It can be seen, that the "low"-radiation countries' solar electricity production rates are dominated by three countries: Netherlands, Belgium and Germany. Each one of these show a higher rate than the "very high"-radiation countries Spain and Cyprus. In the "very low"-radiation category, Denmark shows a solar rate comparable to the ones of "medium"-radiation. The country with the highest solar rate per area by far is the "very high"-radiation country Malta. 
+
+![Solar Production per Area by Category](/img/solar_production_per_area.png)
