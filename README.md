@@ -28,12 +28,11 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 * Average Annual Solar Radiation: [Article by M. Uyan & O.L. Dogmus](https://www.researchgate.net/figure/Average-annual-global-solar-radiation-in-Europe-20_fig2_366202104)
 
 
-
 ## Hypothesis 2
 Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production. Due to limited time resources, we reduced the scope to solar electricity production and its correlation to the countries' solar radiation exposure.
 
 #### Country Solar Radiation Categorization
-In order to visualize the Country Solar Radiation Categorization, a map is created, which depicts all considered countries in a color depending on their respective category. The colors are defined in a way, so that green represents countries with low solar radiation, and red represents countries with high solar radiation. The categorization itself is defined further above. In subsequent charts, the countries' categories are indicated by applying the colormap to the color of the bars.
+Each considered country is categorized by its solar radiation exposure following data on the average annual GHI (Global Horizontal Irradiance) in the period between 1994 and 2016. The map below dsiplays the countries in a color depending on their respective category. Green represents countries with low solar radiation, and red represents countries with high solar radiation.
 
 ![Country Solar Categorization](/img/country_categorization_by_solar_radiation.png)
 
