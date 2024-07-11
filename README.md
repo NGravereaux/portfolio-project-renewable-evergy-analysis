@@ -25,9 +25,11 @@ We aim to approach the right government in EU countries as our future client who
 ## Hypothesis 1
 The scatterplot visualizaton was performed to show the relationship between GDP and the percentage of renewable energy production for EU countries in 2010-2023. 
 ![Correlation GDP and % of renevable energy adoption](https://github.com/NGravereaux/project1_main/blob/master/img/Correlation%20between%20GDP%20per%20capita%20and%20%25%20of%20Renewable%20energy%20production.png)
-Positive Correlation
 The trendline indicates a positive correlation between GDP and the percentage of renewable energy. 
 This means that, on average, countries with higher GDP tend to have a higher percentage of renewable energy production.
+The positive trend suggests that economically developed countries are more likely to invest in renewable energy sources. 
+This could be due to higher availability of funds for infrastructure, more advanced technology, and stronger policy frameworks supporting renewable energy.
+Despite the positive trend, data varies. Countries with low GDP have a wide range of renewable energy percentages, from very low to very high. In countries with high GDP, the renewable energy percentages also vary, but less so.
 
 ## Hypothesis 2
 Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production. Due to limited time resources, we reduced the scope to solar electricity production and its correlation to the countries' solar radiation exposure.
