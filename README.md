@@ -1,22 +1,17 @@
-## Business case
-Client: European Union
+## Introduction
 
-The European Union wants to evaluate their ambitious goal for energy production from renewable energies to make up 42% of the consumption by 2030.
-They want to know what are the current status of renewable energy production in EU.
-With this input, they want to evaluate what kinds of policy or actions they need to do to improve the renewable energy production in some countries, especially for countries which are left behind.
+Sustainergy Advisory Firm has a mission to help EU countries to fasten renewable energy adoption, so, they can reach European Union's ambitious goal to make up 42% renewable energy by 2030. 
 
-### Hypothesis 1: Renewable Energy Adoption Correlates with GDP per Capita
-Hypothesis: Countries with higher GDP per capita tend to have higher adoption rates of renewable energy sources.
-Rationale: Wealthier nations may have more resources to invest in renewable energy infrastructure and technologies.
+We aim to approach the right government in EU countries as our future client who is still left behind in reaching that target. In order to find the right client with right approach, we identify these problem statements and hypotheses:
 
-### Hypothesis 2: Geographic and Climate Influences on Renewable Energy
-Hypothesis: Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production.
-Rationale: Natural resources play a significant role in the feasibility and profitability of renewable energy projects.
+**Problem 1**: our company doesn't know which government to approach.<br>
+**Hypothesis 1**: Our future client will be a country with high GDP but low renewable energy adoption.
 
-### Hypothesis 3: Technological Innovation and Renewable Energy Growth
-Hypothesis: Countries that invest more in research and development (R&D) in renewable energy technologies demonstrate faster growth in renewable energy production.
-Rationale: Innovation in technology can lead to more efficient and cost-effective renewable energy solutions.
+**Problem 2**: our company doesn't know what best renewable energy source we could suggest to our future client.<br>
+**Hypothesis 2**: the best renewable energy source will be related to natural resources which depends on country's geographic and climate conditions.
 
+**Problem 3**: our company needs to know whether the reason of low renewable energy adoption is related to low investment on innovation in technology.<br>
+**Hypothesis 3**: Countries that invest more in research and development (R&D) in renewable energy technologies demonstrate faster growth in renewable energy production.
 
 ## Data
 
@@ -26,6 +21,8 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 * GDP per Capita of EU Countries: [Word Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 * R&D investments of EU Countries: [Internationl Energy Agency](https://www.iea.org/data-and-statistics/data-tools/energy-technology-rdd-budgets-data-explorer)
 * Average Annual Solar Radiation: [Article by M. Uyan & O.L. Dogmus](https://www.researchgate.net/figure/Average-annual-global-solar-radiation-in-Europe-20_fig2_366202104)
+
+## Hypothesis 1
 
 
 ## Hypothesis 2
@@ -49,3 +46,16 @@ In order to investigate the above findings further, the figure bwloe shows the s
 It can be seen, that the "low"-radiation countries' solar electricity production rates are dominated by three countries: Netherlands, Belgium and Germany. Each one of these show a higher rate than the "very high"-radiation countries Spain and Cyprus. In the "very low"-radiation category, Denmark shows a solar rate comparable to the ones of "medium"-radiation. The country with the highest solar rate per area by far is the "very high"-radiation country Malta. 
 
 ![Solar Production per Area by Category](/img/solar_production_per_area.png)
+
+## Hypothesis 3
+In this section, we would like to understand whether the reason of low renewable energy adoption is related to low investment on innovation in technology.
+
+We need three dataframes to prove Hypothesis 3 which consist of:
+- dataframe of renewable energy production of the EU countries for the past 10 years.
+- dataframe of R&D budget of the EU countries for the past 10 years.
+- dataframe of EU population.
+
+The figure below shows correlation between renewable energy production and R&D budget per capita in the past 10 years of some European countries. It is shown that there is positive correlation between them. 
+
+![Correlation between RE Production and R&D Budget per Capita](/img/RE production vs RnD budget.png)
+
