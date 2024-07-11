@@ -23,7 +23,11 @@ We aim to approach the right government in EU countries as our future client who
 * Average Annual Solar Radiation: [Article by M. Uyan & O.L. Dogmus](https://www.researchgate.net/figure/Average-annual-global-solar-radiation-in-Europe-20_fig2_366202104)
 
 ## Hypothesis 1
-
+The scatterplot visualizaton was performed to show the relationship between GDP and the percentage of renewable energy production for EU countries in 2010-2023. 
+![Correlation GDP and % of renevable energy adoption](https://github.com/NGravereaux/project1_main/blob/master/img/Correlation%20between%20GDP%20per%20capita%20and%20%25%20of%20Renewable%20energy%20production.png)
+Positive Correlation
+The trendline indicates a positive correlation between GDP and the percentage of renewable energy. 
+This means that, on average, countries with higher GDP tend to have a higher percentage of renewable energy production.
 
 ## Hypothesis 2
 Countries with more favorable geographic and climate conditions (e.g., sunlight for solar, wind patterns for wind energy) have higher proportions of renewable energy production. Due to limited time resources, we reduced the scope to solar electricity production and its correlation to the countries' solar radiation exposure.
