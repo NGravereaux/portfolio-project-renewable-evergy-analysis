@@ -5,7 +5,7 @@ Sustainergy Advisory Firm has a mission to help EU countries to fasten renewable
 We aim to approach the right government in EU countries as our future client who is still left behind in reaching that target. In order to find the right client with right approach, we identify these problem statements and hypotheses:
 
 **Problem 1**: our company doesn't know which government to approach.<br>
-**Hypothesis 1**: Our future client will be a country with high GDP but low renewable energy adoption.
+**Hypothesis 1**: Countries with higher GDP are more likely to invest in renewable energy sources and tend to have a higher percentage of renewable energy production.
 
 **Problem 2**: our company doesn't know what best renewable energy source we could suggest to our future client.<br>
 **Hypothesis 2**: the best renewable energy source will be related to natural resources which depends on country's geographic and climate conditions.
@@ -65,3 +65,12 @@ The figure below shows correlation between renewable energy production and R&D b
 
 ![Correlation between RE Production and R&D Budget per Capita](/img/RE_production_vs_RnD_budget.png)
 
+## Conclusion
+1. Hypothesis 1: There is a positive correlation between GDP and the percentage of renewable energy production.
+   - Insight: Countries with high GDP but low renewable energy adoption are ideal candidates for our advisory services. 
+
+2. Hypothesis 2: Countries with high solar radiation exposure still have a significant potential for improvement in solar electricity production.
+   - Insight:  Countries with high solar radiation exposure but low solar electricity production are good candidate to boost solar energy utilization.
+
+3. Hypothesis 3: There is a positive correlation between renewable energy production and the R&D budget in renewable energy technology.
+   - Insight: Increasing R&D funding in renewable energy technologies could enhance renewable energy adoption rates.
