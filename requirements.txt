@@ -1,5 +1,6 @@
-python = 3.11.7
-seaborn = 0.12.2
-pandas = 2.1.4
-re = 2023.10.3
-numpy = 1.26.4
+python=3.11.7
+ipykernel=6.28.0
+numpy=1.26.4
+pandas=2.1.4
+regex=2023.10.3
+seaborn=0.12.2
