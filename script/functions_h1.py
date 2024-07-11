@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import re
+import plotly.express as px
+from scipy.stats import pearsonr
 
 
 # H1: Perform initial data cheking:
@@ -102,3 +104,84 @@ def format_column_titles_h1(df):
     # Apply the clean_column function to all column names in the DataFrame
     df.columns = [clean_column(col) for col in df.columns]
     return df.columns
+
+
+# H1.4. correlation index visualizaton:
+def create_scatter_plot_with_trendline(df):
+    # Calculate the Pearson correlation coefficient
+    r, _ = pearsonr(df['gdp'], df['%_of_renewable'])
+
+    # Create scatter plot with trendline
+    fig = px.scatter(
+        df,
+        x="gdp",
+        y="%_of_renewable",
+        color="year",
+        hover_name="country_name",
+        trendline="ols",
+        template="simple_white",
+        title='Correlation between GDP per capita and % of Renewable energy production in EU countries in 2010-2023'
+    )
+
+    # Extract the trendline results
+
+    # Add annotation for the correlation coefficient
+    fig.add_annotation(
+        x=0.05,
+        y=0.95,
+        xref="paper",
+        yref="paper",
+        text=f'r = {r:.2f}',
+        showarrow=False,
+        font=dict(size=12, color='red')
+    )
+
+    # Update layout
+    fig.update_layout(
+        xaxis_title="GDP per capita, USD",
+        yaxis_title="% Renewable Energy Production, GWh",
+        legend_title_text="Year"
+    )
+
+    # Show the figure
+    fig.show()
+
+
+# H1.4. bar chart: the average % of renewable energy adoption for each country in 2010-2023
+def create_bar_chart_with_target(df):
+    # Calculating the average % of renewable energy for each country over all years
+    average_renewable_per_country = df.groupby(
+        'country_name')['%_of_renewable'].mean().reset_index()
+
+    # Sorting the DataFrame by '%_of_renewable' in ascending order
+    average_renewable_per_country = average_renewable_per_country.sort_values(
+        by='%_of_renewable', ascending=True)
+
+    # Plotting the bar chart with country on the x-axis using Plotly Express
+    fig = px.bar(average_renewable_per_country,
+                 y='%_of_renewable',
+                 x='country_name',
+                 color="country_name",
+                 hover_name="country_name",
+                 template="simple_white",
+                 title='Average Percentage of Renewable Energy by Country (All Years)',
+                 labels={'%_of_renewable': 'Average % of Renewable Energy for all years',
+                         'country_name': 'Country Name'},
+                 text='%_of_renewable',
+                 width=800, height=500)  # Adjusting the width and height
+
+    fig.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+
+    # Adding the target line at 42%
+    fig.add_shape(type='line',
+                  x0=-0.5, y0=42, x1=len(average_renewable_per_country)-0.5, y1=42,
+                  line=dict(color='Red', dash='dash'))
+
+    # Adding target label
+    fig.add_annotation(x=len(average_renewable_per_country)-0.5, y=42,
+                       text='Target: 42%',
+                       showarrow=False,
+                       xshift=10, yshift=10,
+                       font=dict(color='Red'))
+
+    fig.show()
