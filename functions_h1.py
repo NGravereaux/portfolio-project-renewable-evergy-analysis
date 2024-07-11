@@ -3,26 +3,23 @@ import numpy as np
 import seaborn as sns
 import re
 
-# Perform initial data cheking:
 
-
+# H1: Perform initial data cheking:
 def initial_data_checking(df):
     # Print the shape of the DataFrame (number of rows and columns)
     print("\nShape of the DataFrame:\n")
     print(df.shape)
 
-    # Print the count of duplicate rows
+# Print the count of duplicate rows
     print("\nDuplicate Rows Number:\n")
     print(df.duplicated().sum())
 
-    # Print summary statistics for numerical columns
+# Print summary statistics for numerical columns
     print("\nSummary Statistics:\n")
     print(df.describe())
 
 
-# check unique and missing values:
-
-
+# H1: check unique and missing values:
 def unique_and_missing_values_dtype(df):
     # Non-null counts and data types
     non_null_counts = df.notnull().sum()
@@ -52,10 +49,21 @@ def unique_and_missing_values_dtype(df):
 
     return summary
 
-    # analyze_numerical cols:
+
+# H1:separate categorical and numerical columns for 1st Dataset : Global_electriciy_production
+def separate_columns_h1(df1):
+    categorical_cols = df1[['country_name',
+                            'date', 'parameter', 'product', 'unit']]
+    numerical_cols = df1[['value']]
+
+    print("\nCategorical Columns:\n")
+    print(categorical_cols.head())  # Using head() to show the first few rows
+    print("\nNumerical Columns:\n")
+    print(numerical_cols.head())  # Using head() to show the first few rows
 
 
-def analyze_numerical(df):
+# H1: analyze_numerical cols:
+def analyze_numerical_h1(df):
     # Select numerical columns
     numerical_cols = df.select_dtypes(include=['number']).columns
 
@@ -67,10 +75,9 @@ def analyze_numerical(df):
 
     return numerical_desc
 
-# analyze_categorical cols:
 
-
-def analyze_categorical(df):
+# H1:  analyze_categorical cols:
+def analyze_categorical_h1(df):
     # Select categorical columns
     categorical_cols = df.select_dtypes(include=['object', 'category'])
 
@@ -79,10 +86,9 @@ def analyze_categorical(df):
 
     return categorical_desc
 
-# format column titles:
 
-
-def format_column_titles(df):
+# H1: format column titles:
+def format_column_titles_h1(df):
     # Define a function to clean a single column name
     def clean_column(name):
         name = name.strip()  # Remove leading and trailing spaces
