@@ -25,6 +25,7 @@ Rationale: Innovation in technology can lead to more efficient and cost-effectiv
 * Population of EU Countries: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_GIND__custom_7127262/default/table)
 * GDP per Capita of EU Countries: [Word Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 * R&D investments of EU Countries: [Internationl Energy Agency](https://www.iea.org/data-and-statistics/data-tools/energy-technology-rdd-budgets-data-explorer)
+* Average Annual Solar Radiation: [Article by M. Uyan & O.L. Dogmus](https://www.researchgate.net/figure/Average-annual-global-solar-radiation-in-Europe-20_fig2_366202104)
 
 
 
