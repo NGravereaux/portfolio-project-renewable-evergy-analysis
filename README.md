@@ -57,5 +57,5 @@ We need three dataframes to prove Hypothesis 3 which consist of:
 
 The figure below shows correlation between renewable energy production and R&D budget per capita in the past 10 years of some European countries. It is shown that there is positive correlation between them. 
 
-![Correlation between RE Production and R&D Budget per Capita](/img/RE production vs RnD budget.png)
+![Correlation between RE Production and R&D Budget per Capita](/img/RE_production_vs_RnD_budget.png)
 
