@@ -34,6 +34,4 @@ Countries with more favorable geographic and climate conditions (e.g., sunlight 
 In order to find out if countries with a higher solar radiation exposition, the average annual electricity production exploiting solar radiation per squarekilometer is calculated for each country in the EU. Each country is then categorized according to its average annual solar radiation exposition (see. Figure below).
 
 ![Country Solar Categorization](/img/country_categorization_by_solar_radiation.png)
-![Solar Production per Area](/img/solar_production_per_area.png)
-![Solar Production per Capita](/img/solar_production_per_capita.png)
-![Solar Production per Total Electricity](/img/solar_production_per_total.png)
+![Solar Production per Area by Category](/img/solar_production_per_country_radiation_categories_aggregated.png)
