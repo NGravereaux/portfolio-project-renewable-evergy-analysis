@@ -74,3 +74,5 @@ The figure below shows correlation between renewable energy production and R&D b
 
 3. Hypothesis 3: There is a positive correlation between renewable energy production and the R&D budget in renewable energy technology.
    - Insight: Increasing R&D funding in renewable energy technologies could enhance renewable energy adoption rates.
+  
+[Link to Presentation](https://www.canva.com/design/DAGKcPKatDE/zVbcXmfEA61tLzb1q8lX-Q/edit)
