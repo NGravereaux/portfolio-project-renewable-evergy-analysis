@@ -4,13 +4,13 @@ Sustainergy Advisory Firm has a mission to help EU countries to fasten renewable
 
 We aim to approach the right government in EU countries as our future client who is still left behind in reaching that target. In order to find the right client with right approach, we identify these problem statements and hypotheses:
 
-**Problem 1**: our company doesn't know which government to approach.<br>
+**Problem 1**: The company is uncertain regarding the appropriate governmental entity to contact.<br>
 **Hypothesis 1**: Countries with higher GDP are more likely to invest in renewable energy sources and tend to have a higher percentage of renewable energy production.
 
-**Problem 2**: our company doesn't know what best renewable energy source we could suggest to our future client.<br>
+**Problem 2**: The company lacks clarity on the most suitable renewable energy source to recommend to our prospective client..<br>
 **Hypothesis 2**: the best renewable energy source will be related to natural resources which depends on country's geographic and climate conditions.
 
-**Problem 3**: our company needs to know whether the reason of low renewable energy adoption is related to low investment on innovation in technology.<br>
+**Problem 3**: The company seeks to understand if the limited adoption of renewable energy is related to low investment on innovation in technology.<br>
 **Hypothesis 3**: Countries that invest more in research and development (R&D) in renewable energy technologies demonstrate faster growth in renewable energy production.
 
 ## Data
